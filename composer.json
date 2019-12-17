@@ -1,0 +1,28 @@
+{
+    "name": "sexyphoenix/phoenix",
+    "description": "A high-performance web framework",
+    "type": "project",
+    "authors": [
+        {
+            "name": "SexyPhonenix",
+            "email": "zhangpengsheng@focuschina.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/var-dumper": "^5.1@dev",
+        "symfony/http-foundation": "^5.1@dev",
+        "symfony/config": "^5.1@dev",
+        "symfony/routing": "^5.1@dev",
+        "symfony/yaml": "^5.1@dev",
+        "symfony/http-kernel": "^5.1@dev",
+        "symfony/templating": "^5.1@dev",
+        "symfony/dependency-injection": "^5.1@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    }
+}
