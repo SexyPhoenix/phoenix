@@ -6,7 +6,7 @@ phoenix是一个高性能的web框架，具有极高的扩展性。
 [框架开发细节](https://www.cnblogs.com/SexyPhoenix/p/12035309.html)
 
 #### 实现的功能
-
+***
 1. HttpFoundation组件封装Request、Response<br/>
 
 2. 路由灵活配置<br/>
